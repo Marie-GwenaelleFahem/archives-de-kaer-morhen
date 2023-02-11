@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Rubik;
+    background-color:#35393C;
+    color: white;
+}
+
+
+/* Header */
+
+header {
+    padding: 0 20px;
+    background-color:black ;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    height: 200px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a :hover {
+    color:#53655C;
+}
+
+/* Fin du Header */
+
+/* Section lumière sur... */
+
+.focus-on {
+    margin: auto;
+    padding: 60px 0;
+    width: 60%;
+}
+
+.focus-on h2 {
+    text-align: center;
+}
+
+.portrait {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.portrait img {
+    height: 400px;
+}
+
+/* Fin de la section */
+
+/* Footer */
+
+footer {
+    margin: auto;
+    padding: 0 20px;
+    height: 150px;
+    background-color:black ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.footer-main h3 {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-main a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-location {
+    margin: 0;
+    padding-top: 57px;
+    text-align: center;
+}
+
+.footer-location h3 {
+    justify-content: center;
+}
+
+/* Fin du footer */
+
+/* Page Monstres */
+
+.cards {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #35393C;
+    flex-wrap: wrap;
+}
+
+.monster-cards {
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 40%;
+    border-radius: 15px;  
+}
+
+.monster-cards a:active, a:focus, a:hover, a:link, a:visited {
+    text-decoration: none;
+}
+
+.monster-cards h3 {
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+    color: white;
+}
+
+.monster-img img {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 290px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.monster-img img:hover {
+    transition: transform .5s ease;
+    transform: scale(1.1);
+}

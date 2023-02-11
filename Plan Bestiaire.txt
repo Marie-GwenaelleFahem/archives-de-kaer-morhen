@@ -1,0 +1,151 @@
+Header : Logo + navbar (Monstres, signes, alchimie)
+Section : "Lumière sur..." (personnage de l'univers du Sorceleur (mener à la page du personnage si on ajoute une page 'Personnages')
+           h2 : "Lumière sur Ciri"
+	     img : photo du personnage, dimension = 400 
+           p : contenant les information sur le personnage
+Footer : Archives de Kaer Morhen, liens (homepage, Nous trouver "location" : Forteresse des sorceleurs, Kaer Morhen)
+         div : 
+	      - h3 : Archives de Kaer Morhen 
+            - h3 : Page d'accueil
+		- div : 
+		    - h3 : Nous trouver
+                - p : Forteresse des sorceleurs
+                - p : Kaer Morhen
+
+Modèle de page : 
+
+Header 
+Section : card pour chaque catégorie de monstres (bêtes, créatures hybrides, créatures maudites, créatures élémentaires, draconides,
+ 	    insectoïdes, nécrophages, ogroïdes, spectres, vampires, vestiges)
+Footer
+
+Page monstres :
+
+- betes : 
+	- Chien
+	- Loup
+	- Ours
+	- Panthères
+	- Sangliers sauvages
+
+- créatures hybrides :
+	- Erynia
+	- Griffon
+	- Harpie
+	- Mélusine
+	- Opinicus
+	- Salma 
+	- Succube
+
+- créatures maudites : 
+	- Berserker
+	- Couvin
+	- Le "prince" crapaud
+	- Loup-garou
+	- Ulfhedinn
+	- Ekinoppyre
+
+- créatures élémentaires
+	- Djinn
+	- Farfadets
+	- Gargouille
+	- Golem
+	- Molosse de la chasse sauvage
+	- Therazane
+	- Élémentaire de feu
+	- Élémentaire de glace
+	- Élémentaire de terre
+
+- draconides : 
+	- Basilik
+	- Basilic argenté
+	- Cocatrix
+	- Föenard
+	- Hurleur
+	- Matriarche slyzard
+	- Wyvern
+	- Wyvern royale
+
+- insectoïdes : 
+	- Arachas
+	- Arachas cuirassé
+	- Arachas venimeux
+	- Arachnomorphe
+	- Bourdon Endriague
+	- Endriague guerrière
+	- Endriague ouvrière
+	- Guerrières kikimorrhes
+	- Ouvrières kikimorrhes
+	- Harrisi
+	- Veuves pâles
+
+- nécrophages : 
+	- Abaya
+	- Algoule
+	- Brumelin
+	- Fourbe-veuve
+	- Goule
+	- Guenaude aquatique
+	- Genaude sépulcrale
+	- Ignis Fatuus
+	- Noyeur
+	- Nécrophage tacheté
+	- Piqueteur
+	- Putréfacteur
+
+- ogroïdes : 
+	- Cyclope
+	- Golyat
+	- Géant de glace
+	- Géant des nuages
+	- Hagubman
+	- Nekker
+	- Tape-tapeur
+	- Troll de glace
+	- Troll de pierre
+
+- spectres : 
+	- Banshee
+	- Barghest
+	- Blême
+	- Créatures éthérées
+	- Pénitent
+	- Spectre
+	- Spectre de midi
+	- Spectre de minuit
+	- Umbra
+	- Vierge de la peste
+
+- vampires : 
+	- Alpyres
+	- Brouxes
+	- Ekimme
+	- Garkains
+	- Gaël
+	- Katakan
+	- Noctules
+	- Protonoctules
+	- Sarasti
+	- Vampire supérieur
+
+- vestiges : 
+	- Célicole
+	- Dopple
+	- Esprit de la forêt
+	- Fiellon
+	- Grottore
+	- Hurleur
+	- Kernun
+	- Le gardien
+	- Le monstre de Tufo
+	- Leshen
+	- Lutin
+	- Moire
+	- Morvudd
+	- Shaelmaars
+	- Spriggans
+	- Sylvain
+	- Tschart
+
+chakra ui
+typewind 
